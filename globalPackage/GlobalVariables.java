@@ -2,10 +2,10 @@ package globalPackage;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.io.PrintWriter;
 import java.util.Scanner;
 
 import backEndPackage.AddNewProducts;
+import backEndPackage.UpdateTheStock;
 
 public class GlobalVariables {
 
@@ -13,4 +13,6 @@ public class GlobalVariables {
 	public AddNewProducts addNewProducts;
 	public File storeProductList ; 
 	public FileWriter fileWriter ;
+	public Scanner fileReader;
+	public UpdateTheStock updateTheStock;	
 }

@@ -3,6 +3,7 @@ package frontEndPackage;
 import java.util.Scanner;
 
 import backEndPackage.AddNewProducts;
+import backEndPackage.UpdateTheStock;
 import globalPackage.GlobalVariables;
 
 public class MainScreen {
@@ -20,6 +21,8 @@ public class MainScreen {
 				globalVariables.addNewProducts.addNewProductFunction();
 				break;
 			case 2:
+				globalVariables.updateTheStock = new UpdateTheStock();
+				globalVariables.updateTheStock.updateStock();
 				break;
 			case 3:
 				break;

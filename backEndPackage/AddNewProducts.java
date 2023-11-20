@@ -17,13 +17,13 @@ public class AddNewProducts {
 			globalVariables.fileWriter = new FileWriter(globalVariables.storeProductList, true);
 			
 			System.out.println("Name : ");
-			globalVariables.fileWriter.append("\n" + globalVariables.scan.next() + "\t");
+			globalVariables.fileWriter.append(globalVariables.scan.next() + "\t");
 			System.out.println("Amount/piece : ");
 			globalVariables.fileWriter.append(globalVariables.scan.nextInt() + "\t");
 			System.out.println("Qty: ");
-			globalVariables.fileWriter.append(globalVariables.scan.nextInt() + "\t");
+			globalVariables.fileWriter.append(globalVariables.scan.nextInt() + "\n");
 			globalVariables.fileWriter.close();
-			
+			System.out.println("\n\t\t  * * * Products Added Successfully  * * * ");
 		} catch (FileNotFoundException e) {
 			System.err.println("File not found ! ");
 		} catch (IOException e) {
