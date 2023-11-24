@@ -1,0 +1,6 @@
+Name	Amount	Qty.
+cpu	200	8
+mouse	300	9
+monitor	5000	9
+keyboard	800	9
+printer	7000	9

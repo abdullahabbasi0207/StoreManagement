@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.util.Scanner;
 
 import backEndPackage.AddNewProducts;
+import backEndPackage.Bill;
 import backEndPackage.UpdateTheStock;
 
 public class GlobalVariables {
@@ -14,5 +15,7 @@ public class GlobalVariables {
 	public File storeProductList ; 
 	public FileWriter fileWriter ;
 	public Scanner fileReader;
-	public UpdateTheStock updateTheStock;	
+	public UpdateTheStock updateTheStock;
+	public Bill bill;
+	public FileWriter fileWriter1 ;
 }

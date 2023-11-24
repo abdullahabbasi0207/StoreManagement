@@ -1,0 +1,49 @@
+
+	* * * * Bill * * * *
+Date : 11
+Name : abu
+Contact : 1234
+Address : Andheri
+Bill Details
+
+1 cpu X 200 = 200/-
+
+1 mouse X 300 = 300/-
+
+1 monitor X 5000 = 5000/-
+
+1 keyboard X 800 = 800/-
+
+1 printer X 7000 = 7000/-
+
+Grand Total : $13300,/-
+-------------------------------------
+	* * * * Bill * * * *
+Date : 12
+Name : farhan
+Contact : 12345
+Address : bandra
+Bill Details
+
+1 cpu X 200 = 200/-
+
+Grand Total : $200/-
+-------------------------------------
+	* * * * Bill * * * *
+Date : 22
+Name : abu
+Contact : 1234
+Address : Andheri
+Bill Details
+
+1 cpu X 200 = 200/-
+
+1 mouse X 300 = 300/-
+
+1 monitor X 5000 = 5000/-
+
+1 keyboard X 800 = 800/-
+
+1 printer X 7000 = 7000/-
+
+Grand Total : $13300/-
